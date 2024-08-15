@@ -21,7 +21,7 @@ const textToSpeech=(text)=>{
             {mockInterviewquestion && mockInterviewquestion.map((question,index)=>(
           
 
-<h2 className={`p-2 bg-secondary rounded-full text-xs md:text-sm text-center 
+<h2 className={`p-2 rounded-full text-xs md:text-sm text-center 
 cursor-pointer ${activequestionindex==index && 'bg-black text-white'}`}>
     Question{index+1}
     </h2>
